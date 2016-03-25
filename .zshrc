@@ -5,8 +5,8 @@ export ZSH=/Users/baohongxin/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
-
+# ZSH_THEME="robbyrussell"
+ZSH_THEME="agnoster"
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -49,7 +49,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git vi-mode)
+plugins=(git vi-mode brew history node npm sudo)
 
 # User configuration
 
@@ -84,5 +84,3 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim='/usr/local/bin/vim'
 alias node='node --harmony'
-source /Users/baohongxin/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-plugins=(zsh-syntax-highlighting)
