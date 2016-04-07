@@ -55,6 +55,7 @@ plugins=(git vi-mode brew history node npm sudo)
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # export MANPATH="/usr/local/man:$MANPATH"
+#export PATH=~/anaconda3/bin:"$PATH"
 
 source $ZSH/oh-my-zsh.sh
 
